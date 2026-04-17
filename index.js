@@ -810,3 +810,62 @@
 // function getMax(accum, ele) {
 //     return Math.max(accum, ele);
 // }
+
+// function helloStudents() {
+//     console.log("Hello students");
+// }
+
+
+
+// setTimeout(function() {
+//     console.log("Hello students");
+// }, 3000);
+
+// let numbers = [1, 2, 3, 4, 5]; 
+
+// const squares = numbers.map(function(element) {
+//     return Math.pow(element, 2);
+// });
+
+// const evenNums = numbers.filter(function(element) {
+//     return element % 2 === 0;
+// })
+
+// console.log(evenNums);
+
+//  const total = numbers.reduce(function(accm, ele) {
+//     return accm + ele;
+//  })
+
+// console.log(total);
+
+// function square(element) {
+//     return Math.pow(element, 2);
+// }
+
+// function helloStudents() {
+//     console.log("Hello students");
+// }
+
+// const helloStudents = function() {
+//     console.log("Hello students");
+// }
+
+// const hello = (name, age) => {console.log(`Hello ${name}`);
+//                              console.log(`your age is ${age} years old`); }
+                             
+
+
+// hello("ganesh", 15);
+
+
+
+// setTimeout(() => console.log("Hello students"), 3000);
+
+
+// let numbers = [1, 2, 3, 4, 5]; 
+
+// const squares = numbers.map((element) => Math.pow(element, 2));
+
+// console.log(squares);
+
