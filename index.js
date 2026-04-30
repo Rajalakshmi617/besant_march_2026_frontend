@@ -2,35 +2,25 @@
 // console.log("Welocme to js world");
 // console.log('Welocme to js world');
 
-
-
-
 // window.alert("Hai hello students");
-
 
 // window.alert("I like food")
 
-
-
 // document.getElementById("myH1").textContent = "Hello Students";
 
-// document.getElementById("myP").textContent = "I like food"; 
+// document.getElementById("myP").textContent = "I like food";
 
-// let var const 
+// let var const
 
 // let x;
-// let y; 
+// let y;
 
 // x = 20;
 // y = 30;
 
-
-
-
 // Pascal -  Project, Class, Constructors
 // Every word 1st letter must be capital
 // Scientific_Calculator
-
 
 // Camel - Methods, object, variables
 // Except word reaminnning words 1st letter must bi in capital and 1st word 1st letter must be in small
@@ -38,7 +28,7 @@
 // student_Register_Number = 3543333;
 
 // findLargestNumber() {
-    
+
 // }
 
 // let x = 20;
@@ -50,10 +40,7 @@
 // let price = 10.45;
 // let gpa = 2.1;
 
-
-
 // let firstName = "Aslam";
-
 
 // console.log(typeof age);
 // console.log(typeof firstName);
@@ -71,7 +58,6 @@
 
 // let fullName = "student";
 // document.getElementById("myH1").textContent = fullName;
-
 
 // let students = 30;
 
@@ -93,22 +79,18 @@
 // ++students;
 // --students;
 
-
 // a = ++students;
 // console.log(a);
 // console.log(students);
-
-
 
 // let result = 1 + 2 * 3 + 4 ** 2;
 //            1  +   6   +  16 = 23
 // 12 % 5 + 8 / 2;
 // console.log(result);
 
+// How to accept usert input
 
-// How to accept usert input 
-
-// window prompt 
+// window prompt
 // let username = window.prompt("Wht is your username");
 // console.log(username);
 
@@ -120,7 +102,6 @@
 
 //      document.getElementById("myH1").textContent = `hello ${username}`;
 
-    
 // }
 
 // let age = window.prompt("How old are you");
@@ -141,12 +122,10 @@
 // console.log(y, typeof y);
 // console.log(z, typeof z);
 
-
 // const pi = 3.14159;
 
 // let radius;
 // let cicircumference;
-
 
 // radius = window.prompt(`Enter the raduis of a circle`);
 
@@ -156,11 +135,9 @@
 
 // console.log(cicircumference);
 
-
 // let x = 9;
 // let y = 2;
 // let z = 10;
-
 
 // z = Math.round(x);
 // z = Math.floor(x);
@@ -171,7 +148,6 @@
 // let max = Math.max(x, y, z);
 // let min = Math.min(x, y, z);
 // console.log(min);
-
 
 // let age = 13;
 
@@ -226,7 +202,6 @@
 // const subResult = document.getElementById("subResult");
 // const paymentResult = document.getElementById("paymentResult");
 
-
 // mySubmit.onclick = function() {
 //     if(myCheckbox.checked) {
 //        subResult.textContent = `You are subscribed`;
@@ -243,18 +218,16 @@
 
 // let time = 2;
 
-// let greeting = time < 12 ? "Good morning" : 
+// let greeting = time < 12 ? "Good morning" :
 // "good afternoon";
 
 // console.log(greeting);
-
 
 // let purchaseAmount = 50;
 
 // let discount = purchaseAmount >= 100 ? 10 : 0;
 
 // console.log(`Your total is ${purchaseAmount - purchaseAmount * (discount/100)}`);
-
 
 // if(age >= 18) {
 
@@ -314,11 +287,10 @@
 //         break;
 // }
 
-
 // console.log(letterGrade);
 
 //              012345  // length = 5 and 0 to n-1
-// let username = "ganesh$kumar"; 
+// let username = "ganesh$kumar";
 
 // console.log(username.charAt(2));
 // console.log(username.indexOf("a"));
@@ -336,11 +308,7 @@
 // phoneNum = phoneNum.padStart(20, "0");
 // phoneNum = phoneNum.padEnd(20, "0");
 
-
-
-
 // console.log(phoneNum);
-
 
 // const fullName = "ganesh45678 kumarhjkl";
 
@@ -366,7 +334,6 @@
 // username = ganeshkumar
 // address name = gmail
 
-
 // without method chaining
 
 // let username = window.prompt("Enter the username: ");
@@ -385,16 +352,13 @@
 
 // console.log(username);
 
-
-// with method chaining 
+// with method chaining
 
 // let username = window.prompt("Enter the username: ");
 
 // username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
 
-
 // console.log(username);
-
 
 // const temp = 10;
 
@@ -412,7 +376,6 @@
 //     console.log("It is cloudy outside");
 // }
 
-
 // const PI = 3.14;
 
 // if(PI === 3.14) {
@@ -421,12 +384,11 @@
 //     console.log("Not PI");
 // }
 
-
 // let username = "";
 
 // while(username === "" || username === null) {
 //     username = window.prompt("Enter your name ");
-// } 
+// }
 // console.log(`hello ${username}`);
 
 // let num = 10;
@@ -448,8 +410,6 @@
 //       }
 // }
 
-
-
 // function happyBirthday(username, age) {
 //    console.log("Happy birthday to you");
 //    console.log("Happy birthday to you");
@@ -461,11 +421,9 @@
 // happyBirthday("ganesh", 26);
 // happyBirthday("siva", 22);
 
-
 // function add(x, y) {
 //    return x + y;
 // }
-
 
 // function isEven(number) {
 //     // if(number % 2 === 0) {
@@ -483,7 +441,7 @@
 //   } else {
 //     return false;
 //   }
-     
+
 //    return email.includes("@") ? true : false;
 
 // }
@@ -510,8 +468,6 @@
 
 // func1();
 // func2();
-
-
 
 //             0          1          2       length = 4, 0 to 3
 // let fruits = ["apple", "orange", "banana", "mango"];
@@ -544,7 +500,6 @@
 
 // console.log(index);
 
-
 // let numbers = [1, 2, 3, 4, 5];
 
 // let maximum = Math.max(...numbers);
@@ -562,8 +517,8 @@
 // console.log(letters);
 
 // let fruits = ["apple", "orange", "banana", "mango"];
- 
-// different data structure but idenetical values - shallow copy 
+
+// different data structure but idenetical values - shallow copy
 
 // let veggies = ["carrots", "potatos", "onion"];
 
@@ -571,16 +526,14 @@
 
 // console.log(foods);
 
-
 // function openFridge(...foods) {
 //    console.log(...foods);
-// } 
+// }
 // const food1 = "tomato rice";
 // const food2 = "veg rice";
 // const food3 = "egg rice";
 // const food4 = "veg briyani";
 // const food5 = "non veg briyani";
-
 
 // openFridge(food1, food2, food3, food4, food5);
 
@@ -597,9 +550,6 @@
 
 // console.log(`the total is ${total}`);
 
-
-
-
 // function getAverage(...numbers) {
 //       let result = 0;
 //       for(let number of numbers) {
@@ -608,7 +558,6 @@
 
 //      return result / numbers.length;
 // }
-
 
 // const total = getAverage(75, 78, 90, 99);
 // console.log(`the total is ${total}`);
@@ -621,10 +570,7 @@
 
 // console.log(`the fullname with emp id ${fullName}`);
 
-
-
 // helloStudents(waitStudents);
-
 
 // function helloStudents(callback) {
 //     console.log("Hello Students");
@@ -639,13 +585,11 @@
 //      console.log("Students wait");
 // }
 
-
 // function goodbyeStudents() {
 //     console.log("Goodbye!! Students");
 // }
 
-
-//      
+//
 // sum(displayInWebPage, 2, 3);
 
 // // 1st it be call
@@ -662,11 +606,9 @@
 //        document.getElementById("myH1").textContent = `the result is ${result}`;
 // }
 
-
 //            0    1  2 3  4
 // let numbers = [1, 2, 3, 4, 5];
 
-  
 // numbers.forEach(double);
 // numbers.forEach(cube);
 // numbers.forEach(double);
@@ -703,7 +645,7 @@
 // }
 
 // function captialize(element, index, array) {
-//     array[index] = element.charAt(0).toUpperCase() + element.slice(1) 
+//     array[index] = element.charAt(0).toUpperCase() + element.slice(1)
 // }
 
 // fruits.forEach(display);
@@ -712,21 +654,18 @@
 //     console.log(element);
 // }
 
-            //    0  1  2 3  4
+//    0  1  2 3  4
 // let numbers = [1, 2, 3, 4, 5];
 
 // const squares = numbers.map(square);
 
 // console.log(squares);
 
-
 // function square(element) {
 //     return Math.pow(element, 2);
 // }
 
-// do it for cube? below 
-
-
+// do it for cube? below
 
 // const students = ["ganesh", "aslam", "john"];
 
@@ -734,11 +673,9 @@
 
 // console.log(studentsUpper);
 
-
 // function upperCase(element) {
 //      return element.toUpperCase();
 // }
-
 
 // const dates = ["2026-04-16", "2026-04-6", "2026-05-16"]
 
@@ -751,9 +688,7 @@
 //     return `${parts[2]}/${parts[1]}/${parts[0]}`;
 // }
 
-
 // let numbers = [1, 2, 3, 4, 5];
-
 
 // let evenNumbers = numbers.filter(isEven);
 
@@ -763,9 +698,7 @@
 //     return element % 2 === 0;
 // }
 
-
 // const ages = [27, 25, 28, 30, 22, 60, 18, 13, 10, 12];
-
 
 // const adults = ages.filter(isAdult);
 
@@ -775,8 +708,7 @@
 //     return element >= 18;
 // }
 
-// filter the childerns 
-
+// filter the childerns
 
 // const words = ["apple", "orange", "banana", "pineapple", "pomegrante"];
 
@@ -797,11 +729,10 @@
 
 // console.log(`my total is ₹${total}`);
 
-// //             750         170                    
+// //             750         170
 // function sum(previousEle, nextEle) {
 //     return accumlator + elemen;
 // }
-
 
 // const maximum = prices.reduce(getMax);
 
@@ -815,13 +746,11 @@
 //     console.log("Hello students");
 // }
 
-
-
 // setTimeout(function() {
 //     console.log("Hello students");
 // }, 3000);
 
-// let numbers = [1, 2, 3, 4, 5]; 
+// let numbers = [1, 2, 3, 4, 5];
 
 // const squares = numbers.map(function(element) {
 //     return Math.pow(element, 2);
@@ -853,22 +782,16 @@
 
 // const hello = (name, age) => {console.log(`Hello ${name}`);
 //                              console.log(`your age is ${age} years old`); }
-                             
-
 
 // hello("ganesh", 15);
 
-
-
 // setTimeout(() => console.log("Hello students"), 3000);
 
-
-// let numbers = [1, 2, 3, 4, 5]; 
+// let numbers = [1, 2, 3, 4, 5];
 
 // const squares = numbers.map((element) => Math.pow(element, 2));
 
 // console.log(squares);
-
 
 // const person1 = {
 
@@ -879,7 +802,6 @@
 
 //     // sayHelloo: () =>  {console.log("Hai iam ganesh kumar")},
 //     // eat: () => {console.log("I am eating sambar rice")}
-
 
 //     name: "Ganesh",
 //     favFood: "sambar rice",
@@ -896,7 +818,6 @@
 
 //     // sayHelloo: () =>  {console.log("Hai iam ganesh kumar")},
 //     // eat: () => {console.log("I am eating sambar rice")}
-
 
 //     name: "aslam",
 //     favFood: "tomwato rice",
@@ -925,7 +846,6 @@
 // console.log(person1.isEmployee);
 // console.log(person1.age);
 
-
 // console.log(person2.firstName);
 // console.log(person2.lastname);
 // console.log(person2.isEmployee);
@@ -936,8 +856,6 @@
 // person2.sayHelloo();
 // person2.eat();
 
-
-
 // function Car(make, year, color, model) {
 
 //     this.make = make,
@@ -947,7 +865,6 @@
 //     this.drive = function(){console.log(`you drive ${this.model}`)}
 
 // }
-
 
 // const car1 = new Car("tata", "2024", " red", "altroz");
 // const car2 = new Car("maruthi", "2026", "black", "swift");
@@ -974,17 +891,15 @@
 // console.log(car4.color);
 // console.log(car4.year);
 
-
 // car1.drive();
 // car2.drive();
 
 // class Product {
 
 //     constructor(name, price) {
-//       this.name = name;   
+//       this.name = name;
 //       this.price = price;
 //     }
-    
 
 //     displayProduct = function() {
 //         console.log(`Product: ${this.name}`);
@@ -994,7 +909,7 @@
 //     calculateTotal = function(salexTax) {
 //         return this.price + (this.price * salesTax)
 //     }
- 
+
 // }
 
 // const salesTax = 0.05;
@@ -1011,7 +926,6 @@
 
 // console.log(`Total price with tax ${total.toFixed(2)}`);
 
-
 // class MathUtil {
 //     static PI = 3.14159;
 
@@ -1027,8 +941,6 @@
 //         return this.PI * radius * radius;
 //     }
 
-
-    
 // }
 
 // console.log(MathUtil.PI);
@@ -1040,7 +952,7 @@
 //     static userCount = 0;
 
 //     constructor(username) {
-//         this.username = username; 
+//         this.username = username;
 //         User.userCount++;
 //     }
 
@@ -1066,7 +978,6 @@
 
 // console.log(user1.username);
 // console.log(User.userCount);
-
 
 // class Animal {
 //     alive = true;
@@ -1103,11 +1014,9 @@
 //     }
 // }
 
- 
 // const cheetah = new Cheetah();
 // const shark = new Shark();
 // const eagle = new Eagle();
-
 
 // console.log(cheetah.alive);
 // cheetah.eat();
@@ -1115,7 +1024,6 @@
 // cheetah.run();
 // cheetah.fly();
 // shark.swim();
-
 
 // class Animal {
 //     constructor(name, age) {
@@ -1152,7 +1060,7 @@
 //         console.log(`This ${this.name} can swim `);
 //           super.move(this.swimSpeed);
 //     }
-   
+
 // }
 
 // class Eagle extends Animal {
@@ -1164,17 +1072,14 @@
 //         console.log(`This ${this.name} can fly`);
 //           super.move(this.flySpeed);
 //     }
-    
+
 // }
 
- 
 // const cheetah = new Cheetah("indian cheetah", 3, 30);
 // const shark = new Shark("indian blue shade shark", 2, 15);
 // const eagle = new Eagle("indian flyer", 4, 35);
 
-
 // cheetah.run();
-
 
 // class Rectangle {
 
@@ -1182,13 +1087,13 @@
 //        this.width = width;
 //        this.height = height;
 //    }
- 
+
 //     set width(newWidth) {
 //         if(newWidth > 0) {
 //             this._width = newWidth;
 //         } else {
 //             console.error("Width must be +ve number");
-            
+
 //         }
 //     }
 //     set height(newHeight) {
@@ -1196,7 +1101,7 @@
 //             this._height = newHeight;
 //         } else {
 //             console.error("Height must be +ve number");
-            
+
 //         }
 //     }
 
@@ -1214,7 +1119,6 @@
 
 // }
 
-
 // const reactangle = new Rectangle(3, 4);
 
 // // reactangle.width = -4519999;
@@ -1224,64 +1128,278 @@
 // console.log(reactangle.height);
 // console.log(reactangle.area);
 
-class Person {
-    constructor(firstName, lastName, age) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-    }
+// class Person {
+//     constructor(firstName, lastName, age) {
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//         this.age = age;
+//     }
 
-    set firstName(newFirstName) {
-        if(typeof newFirstName === "string" && newFirstName.length > 0) {
-            this._firstName = newFirstName;
-        } else {
-            console.error("First name must be a non empty string");
-            
-        }
-    }
-    set lastName(newLastName) {
-        if(typeof newLastName === "string" && newLastName.length > 0) {
-            this._lastName = newLastName;
-        } else {
-            console.error("Last name must be a non empty string");
-            
-        }
-    }
-    set age(newAge) {
-        if(typeof newAge === "number" && newAge >= 0) {
-            this._age = newAge;
-        } else {
-            console.error("age must be a non -ve number");
-            
-        }
-    }
-    
-    get firstName() {
-        return this._firstName;
-    }    
-    get lastName() {
-        return this._lastName;
-    }    
+//     set firstName(newFirstName) {
+//         if(typeof newFirstName === "string" && newFirstName.length > 0) {
+//             this._firstName = newFirstName;
+//         } else {
+//             console.error("First name must be a non empty string");
 
+//         }
+//     }
+//     set lastName(newLastName) {
+//         if(typeof newLastName === "string" && newLastName.length > 0) {
+//             this._lastName = newLastName;
+//         } else {
+//             console.error("Last name must be a non empty string");
 
-     get fullName() {
-        return this._firstName + " " + this._lastName;
-     }
+//         }
+//     }
+//     set age(newAge) {
+//         if(typeof newAge === "number" && newAge >= 0) {
+//             this._age = newAge;
+//         } else {
+//             console.error("age must be a non -ve number");
 
-     get age() {
-        return this._age;
-     }
+//         }
+//     }
 
+//     get firstName() {
+//         return this._firstName;
+//     }
+//     get lastName() {
+//         return this._lastName;
+//     }
 
+//      get fullName() {
+//         return this._firstName + " " + this._lastName;
+//      }
+
+//      get age() {
+//         return this._age;
+//      }
+
+// }
+
+// const person = new Person("Ganesh", "Kumar", 26);
+
+// console.log(person.firstName);
+// console.log(person.lastName);
+// console.log(person.fullName);
+// console.log(person.age);
+
+// 1) swap the value of two variables
+
+// let a = 1;
+// let b = 2;
+
+// console.log(a, b);
+
+// [a, b] = [b, a];
+
+// console.log(a, b);
+
+// swap 2 elements in an array
+
+// const bikes = ["activa 5g", "tvs jupiter", "ktm 200", "ns200"];
+
+// console.log(bikes);
+
+// [bikes[0], bikes[3]] = [bikes[3], bikes[0]];
+
+// console.log(bikes);
+
+// assign array elements to varaible using destructuring
+
+// const bikes = ["activa 5g", "tvs jupiter", "ktm 200", "ns200"];
+
+// const [firstBike, secondBike, ...extraBikes] = bikes;
+
+// console.log(firstBike, secondBike, extraBikes);
+
+// Extract values from object
+
+// const employee1 = {
+//     firstName: "Ganesh",
+//     lastName: "kumar",
+//     age: 27,
+//     job: "chef",
+// }
+// const employee2 = {
+//     firstName: "Ganesh",
+//     lastName: "kumar",
+//     age: 27,
+
+// }
+
+// const {firstName, lastName, age, job="unepemloyed"} = employee2;
+
+// console.log(firstName, lastName, age, job);
+
+// Destructuring using function paramters
+
+// function displayEmployee({firstName, lastName, age, job="unepmoled"}) {
+//      console.log(`name: ${firstName} ${lastName}
+//                  age: ${age}
+//                  job: ${job}
+//         `);
+
+// }
+
+// const employee1 = {
+//     firstName: "Ganesh",
+//     lastName: "kumar",
+//     age: 27,
+//     job: "chef",
+// }
+// const employee2 = {
+//     firstName: "Ganesh",
+//     lastName: "kumar",
+//     age: 27,
+
+// }
+
+// displayEmployee(employee2);
+
+// const employee = {
+//     fullName: "Ganesh kumar",
+//     age: 27,
+//     isEmployee: true,
+//     empCode: 101,
+//     hobbies:["reading", "fishing", "cooking"],
+//     address: {
+//         street: "8 gandhi st",
+//         city: "chennai",
+//         country: "india"
+
+//     }
+// }
+
+// console.log(employee.hobbies[2]);
+// console.log(employee.fullName);
+// console.log(employee.age);
+// console.log(employee.empCode);
+// console.log(employee.address.country);
+
+// for(const values in employee.address) {
+//    console.log(employee.address[values]);
+// }
+
+//  class Employee {
+//     constructor(name, age, ...address) {
+//         this.name = name;
+//         this.age = age;
+//         this.address = new Address(...address);
+//     }
+//  }
+
+// class Address {
+//     constructor(street, city, country) {
+//         this.street = street;
+//         this.city = city;
+//         this.country = country;
+//     }
+// }
+
+// const employee1 = new Employee("ganesh",27, "123 gandhi st", "chennai", "india");
+// const employee2 = new Employee("kumar",26, "13 lenein st", "thrichy", "india");
+
+// console.log(employee2.address.country);
+
+// let fruits = ["apple", "orange", "coconut", "pineapple"];
+// let numbers = [1, 10, 2, 9, 3, 8, 4, 7, 5, 6];
+
+// const people = [{name : "ganesh", age: 22, gpa:2.5},
+
+//                 {name : "aslam", age: 21, gpa:5.5},
+
+//                 {name : "john", age: 20, gpa:6.5}
+
+// ]
+
+// numbers.sort();
+
+// numbers.sort((a,b) => b - a); // a - b will rtuen -ve zero or +ve value depending what vlaue we examine
+
+// people.sort((a, b) => a.age - b.age);
+// people.sort((a, b) => a.gpa - b.gpa);
+// people.sort((a, b) => a.name - b.name);
+
+// console.log(people);
+
+// Fisher values Alogithm
+//             i + 2
+// const cards = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'K'];
+
+// shuffle(cards);
+// console.log(cards);
+
+// function shuffle(array) {
+
+//   for(let i = array.length - 1; i >= 0; i--) {
+//     const random = Math.floor(Math.random() * (i + 1));
+
+//     [array[i], array[random]] = [array[random], array[i]];
+//   }
+
+// }
+
+// Date(Year, month, day, hour, min, seconds, milliseconds)
+
+// const date = new Date();
+
+// const year = date.getFullYear();
+// const month = date.getMonth();
+// const day = date.getDay();
+// const hour = date.getHours();
+// const minutes = date.getMinutes();
+// const seconds = date.getSeconds();
+// const dayOfWeek = date.getDay();
+// date.setFullYear(2024);
+// date.setMonth(0)
+// date.setDate(1);
+// date.setHours(2);
+// date.setMinutes(3);
+// date.setMilliseconds(2)
+
+// console.log(year);
+// console.log(month);
+// console.log(day);
+// console.log(hour);
+// console.log(minutes);
+// console.log(seconds);
+// console.log(dayOfWeek);
+
+// function outer() {
+
+//     let message = "hello";
+
+//     function inner() {
+//       console.log(message);
+//     }
+//     inner();
+// }
+
+// message = "goodbye";
+
+// outer();
+
+function createCounter() {
+  let count = 0;
+  function increment() {
+    count++;
+    console.log(`Count incresed to ${count}`);
+  }
+
+  function getCount() {
+    return count;
+  }
+  return { increment, getCount };
 }
 
+const counter = createCounter();
 
-const person = new Person("Ganesh", "Kumar", 26);
+counter.increment();
+counter.increment();
+counter.increment();
+counter.increment();
+counter.increment();
+counter.increment();
 
-console.log(person.firstName);
-console.log(person.lastName);
-console.log(person.fullName);
-console.log(person.age);
-
-
-
+console.log(`the current count ${counter.getCount()}`);

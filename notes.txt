@@ -488,6 +488,48 @@ Use super in constructor
 Advanced Javascript
 
 
+Destructuring - extract values from arryas and objects, then assign them to variable in convienent way 
+
+[] = to perform array Destructuring
+{} = to perform object Destructuring
+
+
+nested object - object inside another object 
+allow us to reperesent more complex data structures 
+child object is enlclosed by a parent object 
+
+
+// employee{address{}, ContactInfo{}}
+/ ShoppingCart{Bottel{}, Shirt{}, Ball{}}
+
+
+sorting - used to sort elements of an array in place, sorts elements as strings in lexicographic order, not alphabetical order
+
+lexigographic = (alphabet + numbers + symbols) as strings 
+
+sort()
+
+
+suffle an array 
+
+Dates Objects  - object that constains vcalues that reperesent dates and times, these date objects can be changed and formatted
+
+
+Closures ---> function defined inside of another function, the inner function hass access to the varaiables and scope of the outer function.
+
+Allow for private variables and state maintence
+
+frequntly used in Angularjs, Reactjs, Vuejs, Nextjs 
+
+
+We can Encapsulate the varaiable make them as private - prons of closures
+
+
+
+
+
+
+
 
 
 
